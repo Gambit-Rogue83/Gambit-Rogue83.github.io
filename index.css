@@ -1,0 +1,70 @@
+* {
+   padding: 0;
+   margin: 0;
+}
+
+html {
+   font-size: 62.5%;
+}
+
+body {
+   /* font-family: 'Courier New', Courier, monospace; */
+   line-height: 1;
+   font-weight: 400;
+}
+
+.container {
+   max-width: 120rem;
+   padding: 0 3.2rem;
+   margin: 0 auto;
+}
+
+/* .grid {
+   display: grid;
+   grid-template-columns: repeat(10, 10rem);
+   grid-template-rows: repeat(5, 10rem);
+   overflow: hidden;
+   row-gap: 9.6rem;
+  } */
+
+.main-link:link, .main-link:visited {
+   color: #555555;
+   text-decoration: none;
+   font-size: 5rem;
+   letter-spacing: 1rem;
+}
+
+/*
+TABS
+*/
+
+.about {
+   grid-column-start: 0;
+   grid-column-end: 2;
+}
+
+.interests {
+   grid-column-start: 2;
+   grid-column-end: 4;
+}
+
+.skills {
+   grid-column-start: 3;
+   grid-column-end: 5;
+
+}
+
+.projects {
+   grid-column-start: 4;
+   grid-column-end: 6;
+}
+
+.experience {
+   grid-column-start: 5;
+   grid-column-end: 7;
+   grid-row-start: 5;
+}
+
+p {
+   font-size: 2rem;
+}
